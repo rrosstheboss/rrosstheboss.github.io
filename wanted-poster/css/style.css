@@ -154,4 +154,9 @@ image {
 }
 /* Footer */
 
-
+footer {
+    padding: 1rem;
+    border-top-width: 2rem;
+    border-top-style: solid;
+    border-top-color: #333;
+}
