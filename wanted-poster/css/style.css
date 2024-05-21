@@ -117,7 +117,22 @@ h5 {
 }
 /* Section & Paragraph */
 
+section {
+    margin-top: .5rem;
+}
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-left: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 90%;
+    text-align: left;
+}
 
 /* Image & Figure */
 
