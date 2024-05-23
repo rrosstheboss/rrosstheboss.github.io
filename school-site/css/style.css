@@ -137,16 +137,35 @@ figcaption {
 
 /* Link Styling */
 
+a {
+    outline-color: transparent;
+}
 
+a:link, a:visited {
+    color: #33658A;
+}
 
-
-
+a:focus, a:hover {
+    text-decoration: none;
+}
 
 /* List Styling */
 
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lower-alpha;
+}
 
-
-
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: square;
+}
 
 
 /* Navigation Menu */
