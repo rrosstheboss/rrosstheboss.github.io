@@ -79,17 +79,46 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('true-type');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
+@font-face {
+    font-family: Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('true-type');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 /* Typography Styles */
 
+html {
+    font-family: Montserrat, Arial, sans-serif;
+}
 
+h1 {
+    letter-spacing: .125rem;
+    font-family: Josefinslab, 'Times New Roman', Times, serif;
+    font-size: 3.75rem;
+    margin: 1.125;
+    text-align: center;
+}
 
+h2 {
+    letter-spacing: .125rem;
+    font-family: Josefinslab, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
 
-
-
+p {
+    font-size: .75rem;
+    letter-spacing: .031rem;
+    word-spacing: .125rem;
+}
 /* Link Styling */
 
 
