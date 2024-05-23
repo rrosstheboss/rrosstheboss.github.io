@@ -167,6 +167,9 @@ ul {
     list-style-type: square;
 }
 
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 /* Navigation Menu */
 
