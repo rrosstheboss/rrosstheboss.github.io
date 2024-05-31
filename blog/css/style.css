@@ -63,3 +63,22 @@ body {
  aside {
     float: right;
  }
+
+ h1 {
+    letter-spacing: .125rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.75rem;
+    margin: 1.125;
+    text-align: center;
+    text-shadow: #000;
+ }
+
+ section, aside, nav, footer {
+    padding: .5rem;
+  }
+
+  nav {
+    border-top: .125rem solid #000;
+    border-bottom: .125rem solid #000;
+    word-spacing: 1rem;
+  }
