@@ -82,3 +82,7 @@ body {
     border-bottom: .125rem solid #000;
     word-spacing: 1rem;
   }
+
+  figure {
+    float: left;
+  }
