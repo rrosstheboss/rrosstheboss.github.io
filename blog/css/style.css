@@ -48,4 +48,18 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+html {
+    font-size: 16px;
+}
 
+body {
+    margin: 1.5rem auto;
+    width: 90%;
+}
+ section {
+    float: left;
+ }
+ 
+ aside {
+    float: right;
+ }
