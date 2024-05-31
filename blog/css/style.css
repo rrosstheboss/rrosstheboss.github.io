@@ -86,3 +86,7 @@ body {
   figure {
     float: left;
   }
+  
+  section subsection {
+        grid-column-end: auto;
+  }
