@@ -86,11 +86,11 @@ body {
     float: left;
   }
   
-  section subsection {
+  .subsection {
         grid-column-end: auto;
   }
 
-  section main-section {
+  .main-section {
     display: flex;
     flex-direction: column;
   }
