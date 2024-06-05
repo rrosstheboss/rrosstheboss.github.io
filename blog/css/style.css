@@ -60,9 +60,6 @@ body {
     float: left;
  }
  
- aside {
-    float: right;
- }
 
  h1 {
     letter-spacing: .125rem;
@@ -78,9 +75,11 @@ body {
   }
 
   nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
     border-top: .125rem solid #000;
     border-bottom: .125rem solid #000;
-    word-spacing: 1rem;
+    word-spacing: 3rem;
   }
 
   figure {
@@ -89,4 +88,9 @@ body {
   
   section subsection {
         grid-column-end: auto;
+  }
+
+  section main-section {
+    display: flex;
+    flex-direction: column;
   }
